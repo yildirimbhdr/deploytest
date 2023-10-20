@@ -12,4 +12,4 @@ COPY . .
 
 RUN npm run build
 
-CMD ["nest" , "start" ,"--watch" , "app.js"]
+CMD ["node" , "dist/main.js"]
